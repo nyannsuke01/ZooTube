@@ -45,7 +45,7 @@ class Page6ViewController: UITableViewController,SegementSlideContentScrollViewD
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "Cell")
         cell.selectionStyle = .none
         let profieleImageURL = URL(string: self.imageURLStringArray[indexPath.row] as String)!
-//        cell.imageView?.sd_setImage(with: profieleImageURL, completed: nil)
+//        cell.imageView?.sd_setImage(with: profieleImageURL, completed: にl)
         cell.imageView?.sd_setImage(with: profieleImageURL, completed: { (image, error, _, _) in
             if error == nil{
 
@@ -75,7 +75,7 @@ class Page6ViewController: UITableViewController,SegementSlideContentScrollViewD
 
     func getData() {
 
-        var text = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyBTRP59ihwy9mji7kyeQRXkAx9YfZJ2XLM&q=しろくま&part=snippet&maxResults=40&order=date"
+        var text = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyCQMOEwbiG94uK2IJycPV5IedcIKaVov28&q=しろくま&part=snippet&maxResults=40&order=date"
 
         let url = text.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
         //リクエストを送る
@@ -100,7 +100,7 @@ class Page6ViewController: UITableViewController,SegementSlideContentScrollViewD
                         let channelTitle = json["items"][i]["snippet"]["channelTitle"].string
 
                         self.videoIdArray.append(videoId!)
-//                        self.publishedAtArray.append(publishedAt!)
+//                        self.publishedAtArray.append(publishedAt!) 適度に修正
                         self.titleArray.append(title!)
                         self.imageURLStringArray.append(imageURLString!)
                         self.channelTitleArray.append(channelTitle!)
