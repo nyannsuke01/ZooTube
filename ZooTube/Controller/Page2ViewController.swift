@@ -75,7 +75,9 @@ class Page2ViewController: UITableViewController,SegementSlideContentScrollViewD
 
     func getData() {
 
-        let text = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyCQMOEwbiG94uK2IJycPV5IedcIKaVov28&q=犬&part=snippet&maxResults=40&order=date"
+
+        var text = "https://www.googleapis.com/youtube/v3/search?key=???&q=犬&part=snippet&maxResults=40&order=date"
+
 
         let url = text.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
         //リクエストを送る
