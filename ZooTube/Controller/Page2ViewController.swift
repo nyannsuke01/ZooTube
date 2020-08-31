@@ -75,14 +75,14 @@ class Page2ViewController: UITableViewController,SegementSlideContentScrollViewD
 
     func getData() {
 
-        var text = "https://www.googleapis.com/youtube/v3/search?key=&q=犬&part=snippet&maxResults=40&order=date"
+        let text = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyCQMOEwbiG94uK2IJycPV5IedcIKaVov28&q=犬&part=snippet&maxResults=40&order=date"
 
         let url = text.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
         //リクエストを送る
         Alamofire.request(url!, method: .get, parameters: nil, encoding: JSONEncoding.default).responseJSON { (responce) in
             //JSON解析
 
-            //40個値が帰ってくるので、for文で全て配列に入れる
+            //19個値が帰ってくるので、for文で全て配列に入れる
 
             print(responce)
 
