@@ -16,9 +16,16 @@
 		CE46A2A3241CD880009E10EA /* Page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46A2A2241CD880009E10EA /* Page4ViewController.swift */; };
 		CE46A2A5241CD891009E10EA /* Page5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46A2A4241CD891009E10EA /* Page5ViewController.swift */; };
 		CE46A2A7241CD8AD009E10EA /* Page6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46A2A6241CD8AD009E10EA /* Page6ViewController.swift */; };
+		CE4E239824FD0A0100F46D03 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE4E239724FD0A0100F46D03 /* APIKey.plist */; };
+		CE4E239A24FD0C7300F46D03 /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E239924FD0C7200F46D03 /* KeyManager.swift */; };
+		CE4E239C24FDB28100F46D03 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E239B24FDB28100F46D03 /* API.swift */; };
+		CE4E239E24FE44F600F46D03 /* ZooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E239D24FE44F600F46D03 /* ZooViewController.swift */; };
+		CE4E23A024FE453E00F46D03 /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E239F24FE453E00F46D03 /* LikeViewController.swift */; };
+		CE4E23A224FE456D00F46D03 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E23A124FE456D00F46D03 /* MyPageViewController.swift */; };
+		CE4E23A424FF49B600F46D03 /* CommonPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E23A324FF49B600F46D03 /* CommonPageViewController.swift */; };
 		CE7F0DA6241C798E002ED30A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F0DA5241C798E002ED30A /* AppDelegate.swift */; };
 		CE7F0DA8241C798E002ED30A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F0DA7241C798E002ED30A /* SceneDelegate.swift */; };
-		CE7F0DAA241C798E002ED30A /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F0DA9241C798E002ED30A /* CommonViewController.swift */; };
+		CE7F0DAA241C798E002ED30A /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F0DA9241C798E002ED30A /* HeaderViewController.swift */; };
 		CE7F0DAD241C798E002ED30A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7F0DAB241C798E002ED30A /* Main.storyboard */; };
 		CE7F0DAF241C7994002ED30A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7F0DAE241C7994002ED30A /* Assets.xcassets */; };
 		CE7F0DB2241C7994002ED30A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7F0DB0241C7994002ED30A /* LaunchScreen.storyboard */; };
@@ -60,10 +67,17 @@
 		CE46A2A2241CD880009E10EA /* Page4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4ViewController.swift; sourceTree = "<group>"; };
 		CE46A2A4241CD891009E10EA /* Page5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5ViewController.swift; sourceTree = "<group>"; };
 		CE46A2A6241CD8AD009E10EA /* Page6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6ViewController.swift; sourceTree = "<group>"; };
+		CE4E239724FD0A0100F46D03 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
+		CE4E239924FD0C7200F46D03 /* KeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
+		CE4E239B24FDB28100F46D03 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CE4E239D24FE44F600F46D03 /* ZooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooViewController.swift; sourceTree = "<group>"; };
+		CE4E239F24FE453E00F46D03 /* LikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
+		CE4E23A124FE456D00F46D03 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		CE4E23A324FF49B600F46D03 /* CommonPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonPageViewController.swift; sourceTree = "<group>"; };
 		CE7F0DA2241C798E002ED30A /* ZooTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7F0DA5241C798E002ED30A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE7F0DA7241C798E002ED30A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE7F0DA9241C798E002ED30A /* CommonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
+		CE7F0DA9241C798E002ED30A /* HeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewController.swift; sourceTree = "<group>"; };
 		CE7F0DAC241C798E002ED30A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE7F0DAE241C7994002ED30A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7F0DB1241C7994002ED30A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -157,10 +171,12 @@
 		CE7F0DA4241C798E002ED30A /* ZooTube */ = {
 			isa = PBXGroup;
 			children = (
+				CE4E239B24FDB28100F46D03 /* API.swift */,
 				CE7F0DD7241C86DF002ED30A /* Model */,
 				CE7F0DD8241C86F3002ED30A /* View */,
 				CE7F0DD9241C876F002ED30A /* Controller */,
 				CE7F0DD5241C8295002ED30A /* GoogleService-Info.plist */,
+				CE4E239724FD0A0100F46D03 /* APIKey.plist */,
 				CE7F0DB3241C7994002ED30A /* Info.plist */,
 			);
 			path = ZooTube;
@@ -188,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				CEA31A0B241C8F3F00367A2C /* YoutubeData.swift */,
+				CE4E239924FD0C7200F46D03 /* KeyManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,16 +222,20 @@
 		CE7F0DD9241C876F002ED30A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CE7F0DA9241C798E002ED30A /* CommonViewController.swift */,
 				CE7F0DA5241C798E002ED30A /* AppDelegate.swift */,
 				CE7F0DA7241C798E002ED30A /* SceneDelegate.swift */,
-				CE46A29C241CCFE5009E10EA /* WebViewController.swift */,
+				CE7F0DA9241C798E002ED30A /* HeaderViewController.swift */,
+				CE4E23A324FF49B600F46D03 /* CommonPageViewController.swift */,
 				CEA31A09241C8DB800367A2C /* Page1ViewController.swift */,
 				CE46A29E241CD64E009E10EA /* Page2ViewController.swift */,
 				CE46A2A0241CD873009E10EA /* Page3ViewController.swift */,
 				CE46A2A2241CD880009E10EA /* Page4ViewController.swift */,
 				CE46A2A4241CD891009E10EA /* Page5ViewController.swift */,
 				CE46A2A6241CD8AD009E10EA /* Page6ViewController.swift */,
+				CE46A29C241CCFE5009E10EA /* WebViewController.swift */,
+				CE4E239D24FE44F600F46D03 /* ZooViewController.swift */,
+				CE4E239F24FE453E00F46D03 /* LikeViewController.swift */,
+				CE4E23A124FE456D00F46D03 /* MyPageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -328,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4E239824FD0A0100F46D03 /* APIKey.plist in Resources */,
 				CE7F0DB2241C7994002ED30A /* LaunchScreen.storyboard in Resources */,
 				CE7F0DAF241C7994002ED30A /* Assets.xcassets in Resources */,
 				CE7F0DAD241C798E002ED30A /* Main.storyboard in Resources */,
@@ -459,17 +481,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7F0DAA241C798E002ED30A /* CommonViewController.swift in Sources */,
+				CE7F0DAA241C798E002ED30A /* HeaderViewController.swift in Sources */,
 				CE46A29D241CCFE5009E10EA /* WebViewController.swift in Sources */,
 				CE46A2A7241CD8AD009E10EA /* Page6ViewController.swift in Sources */,
 				CE46A2A3241CD880009E10EA /* Page4ViewController.swift in Sources */,
 				CEA31A0C241C8F3F00367A2C /* YoutubeData.swift in Sources */,
 				CE46A2A1241CD873009E10EA /* Page3ViewController.swift in Sources */,
 				CE46A2A5241CD891009E10EA /* Page5ViewController.swift in Sources */,
+				CE4E23A224FE456D00F46D03 /* MyPageViewController.swift in Sources */,
 				CEA31A0A241C8DB800367A2C /* Page1ViewController.swift in Sources */,
+				CE4E239C24FDB28100F46D03 /* API.swift in Sources */,
+				CE4E23A424FF49B600F46D03 /* CommonPageViewController.swift in Sources */,
+				CE4E239E24FE44F600F46D03 /* ZooViewController.swift in Sources */,
 				CE7F0DA6241C798E002ED30A /* AppDelegate.swift in Sources */,
 				CE7F0DA8241C798E002ED30A /* SceneDelegate.swift in Sources */,
 				CE46A29F241CD64E009E10EA /* Page2ViewController.swift in Sources */,
+				CE4E239A24FD0C7300F46D03 /* KeyManager.swift in Sources */,
+				CE4E23A024FE453E00F46D03 /* LikeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
