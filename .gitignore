@@ -1,3 +1,5 @@
 Pods/*
 Zootube.xcworkspace
 GoogleService-Info.plist
+APIKey.plist
+.gitignore
