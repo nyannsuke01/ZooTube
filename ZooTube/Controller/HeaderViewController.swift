@@ -9,7 +9,7 @@
 import UIKit
 import SegementSlide
 
-class CommomViewController: SegementSlideViewController {
+class HeaderViewController: SegementSlideViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class CommomViewController: SegementSlideViewController {
     }
     override var titlesInSwitcher: [String] {
 
-        return["ねこ","いぬ","イルカ","ハリネズミ","動物園","しろくま"]
+        return["ねこ","いぬ","うさぎ","ハリネズミ","動物園","しろくま"]
     }
 
     override func segementSlideContentViewController(at index: Int) -> SegementSlideContentScrollViewDelegate? {
