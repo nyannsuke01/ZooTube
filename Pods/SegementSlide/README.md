@@ -1,7 +1,5 @@
-##### I had rewritten commits to remove big resource folder, you need refork the project if you had forked. -- Beijing time: Feb 17, 2019 15:00 [issues 1](https://github.com/Jiar/SegementSlide/issues/1)
-
 <p align="center">
-  <img src="https://github.com/Jiar/SegementSlide/blob/master/Logo/SegementSlide.png?raw=true">
+  <img src="https://github.com/Jiar/SegementSlide/blob/master/Images/Logo.png?raw=true">
 </p>
 
 <p align="center">
@@ -65,7 +63,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'SegementSlide', '2.2.1'
+    pod 'SegementSlide', '3.0.0'
 end
 ```
 
@@ -91,7 +89,7 @@ To integrate SegementSlide into your Xcode project using Carthage
 1. specify it in your `Cartfile`:
 
 ```ogdl
-github "Jiar/SegementSlide" "2.2.1"
+github "Jiar/SegementSlide" "3.0.0"
 ```
 
 Run `carthage update` to build the framework.
@@ -121,11 +119,11 @@ If you prefer not to use either of the aforementioned dependency managers, you c
 ```swift
 import SegementSlide
 
-class HomeViewController: SegementSlideViewController {
+class HomeViewController: SegementSlideDefaultViewController {
 
     ......
     
-    override var headerView: UIView? {
+    override func segementSlideHeaderView() -> UIView? {
         let headerView = UIView()
         let headerView.translatesAutoresizingMaskIntoConstraints = false
         headerView.heightAnchor.constraint(equalToConstant: view.bounds.height/4).isActive = true
@@ -142,8 +140,8 @@ class HomeViewController: SegementSlideViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        defaultSelectedIndex = 0
         reloadData()
-        scrollToSlide(at: 0, animated: false)
     }
 
 }
@@ -162,6 +160,12 @@ class ContentViewController: UITableViewController, SegementSlideContentScrollVi
 
 }
 ```
+
+## Structure
+
+<p align="center">
+  <img src="https://github.com/Jiar/SegementSlide/blob/master/Images/Structure.png?raw=true">
+</p>
 
 ## Author
 
