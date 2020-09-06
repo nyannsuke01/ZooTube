@@ -219,6 +219,7 @@ PODS:
   - BoringSSL-GRPC/Implementation (0.0.7):
     - BoringSSL-GRPC/Interface (= 0.0.7)
   - BoringSSL-GRPC/Interface (0.0.7)
+  - DZNEmptyDataSet (1.8.1)
   - Firebase (6.28.1):
     - Firebase/Core (= 6.28.1)
   - Firebase/Analytics (6.28.1):
@@ -341,6 +342,7 @@ PODS:
     - nanopb/encode (= 1.30905.0)
   - nanopb/decode (1.30905.0)
   - nanopb/encode (1.30905.0)
+  - Nuke (9.1.2)
   - PromisesObjC (1.2.10)
   - SDWebImage (5.9.0):
     - SDWebImage/Core (= 5.9.0)
@@ -351,12 +353,14 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - DZNEmptyDataSet
   - Firebase (= 6.28.1)
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Firestore
   - Firebase/Storage
   - FirebaseUI/Storage
+  - Nuke
   - SDWebImage
   - SegementSlide
   - SwiftyJSON
@@ -367,6 +371,7 @@ SPEC REPOS:
     - abseil
     - Alamofire
     - BoringSSL-GRPC
+    - DZNEmptyDataSet
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -384,6 +389,7 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - Nuke
     - PromisesObjC
     - SDWebImage
     - SegementSlide
@@ -394,6 +400,7 @@ SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   Firebase: ed042590caa0029392257529a8003c25ee82bc18
   FirebaseAnalytics: 5fa308e1b13f838d0f6dc74719ac2a72e8c5afc4
   FirebaseAuth: a818d73466d51db897d3bf3c0f3baa3dae7fd4c0
@@ -411,12 +418,13 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  Nuke: dd2e6be6a34c042a7861e190632781d11f253026
   PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
   SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
   SegementSlide: ad0a6de50cbcc071da9ec8b0f403a4e75b20ba9a
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
 
-PODFILE CHECKSUM: 49b7511b438ca09762635c5a5c9ae9a33aded2c7
+PODFILE CHECKSUM: 55161df2a3d92de788758675154f47a43d43301e
 
 COCOAPODS: 1.8.4

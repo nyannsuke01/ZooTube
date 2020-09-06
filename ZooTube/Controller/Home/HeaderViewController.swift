@@ -8,82 +8,48 @@
 
 import UIKit
 import SegementSlide
-//import XLPagerTabStrip
+import XLPagerTabStrip
 
-class HeaderViewController: SegementSlideViewController {
+class HeaderViewController: ButtonBarPagerTabStripViewController {
 
     override func viewDidLoad() {
+        //バーの色
+        settings.style.buttonBarBackgroundColor = UIColor(red: 73/255, green: 72/255, blue: 62/255, alpha: 1)
+        //ボタンの色
+        settings.style.buttonBarItemBackgroundColor = UIColor(red: 73/255, green: 72/255, blue: 62/255, alpha: 1)
+        //セルの文字色
+        settings.style.buttonBarItemTitleColor = UIColor.white
+        //セレクトバーの色
+        settings.style.selectedBarBackgroundColor = UIColor(red: 254/255, green: 0, blue: 124/255, alpha: 1)
+
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        reloadData()
-        scrollToSlide(at: 0, animated: true)
-//XLPagerTabStripをそ使用する場合
-//        // タブの背景色
-//         settings.style.buttonBarBackgroundColor = UIColor.lightGray
-//         // タブの色
-//         settings.style.buttonBarItemBackgroundColor = UIColor.lightGray
-//         // タブの文字サイズ
-//         settings.style.buttonBarItemFont = UIFont.systemFont(ofSize: 15)
-//         // カーソルの色
-//         buttonBarView.selectedBar.backgroundColor = UIColor.darkGray
+
     }
 
-    override var headerView: SegementSlideHeaderView{
-        let headerView = UIImageView()
-        headerView.isUserInteractionEnabled = true
-        headerView.contentMode = .scaleToFill
-        headerView.image = UIImage(named: "header")
-        let headerHeigit:CGFloat
-        if #available(iOS 11.0, *){
-            headerHeigit = view.frame.height/4 + view.safeAreaInsets.top
-        } else {
-            headerHeigit = view.frame.height/4 + topLayoutGuide.length
-        }
-        headerView.heightAnchor.constraint(equalToConstant: headerHeigit).isActive = true
-        return headerView
+    //タブを管理するためのViewControllerの設定(XLPagerTabStripを利用)
+    override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
+        //管理されるViewControllerを返す処理
+        let firstVC = Page1ViewController(keyword: Tab.cat.rawValue)
+        let secondVC = Page2ViewController(keyword: Tab.dog.rawValue)
+        let thirdVC = Page3ViewController(keyword: Tab.rabbit.rawValue)
+        let fourthVC = Page4ViewController(keyword: Tab.hedgehog.rawValue)
+        let fifthVC = Page5ViewController(keyword: Tab.zoo.rawValue)
+        let sixthVC = Page6ViewController(keyword: Tab.polarBear.rawValue)
+
+        let childViewControllers:[UIViewController] = [firstVC, secondVC, thirdVC, fourthVC, fifthVC, sixthVC]
+        return childViewControllers
+
     }
 
-//    //タブを管理するためのViewControllerの設定(XLPagerTabStripを利用)
-//    override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-//        //管理されるViewControllerを返す処理
-//        let page1VC = UIStoryboard(name: "Header", bundle: nil).instantiateViewController(withIdentifier: "1")
-//        let page2VC = UIStoryboard(name: "Header", bundle: nil).instantiateViewController(withIdentifier: "2")
-//        let page3VC = UIStoryboard(name: "Header", bundle: nil).instantiateViewController(withIdentifier: "3")
-//        let page4VC = UIStoryboard(name: "Header", bundle: nil).instantiateViewController(withIdentifier: "4")
-//        let page5VC = UIStoryboard(name: "Header", bundle: nil).instantiateViewController(withIdentifier: "5")
-//        let page6VC = UIStoryboard(name: "Header", bundle: nil).instantiateViewController(withIdentifier: "6")
-//
-//        let childViewControllers:[UIViewController] = [page1VC, page2VC, page3VC, page4VC, page5VC, page6VC]
-//        return childViewControllers
-//    }
+    //タブの文字列の管理
+    enum Tab: String {
+        case cat = "ねこ"
+        case dog = "いぬ"
+        case rabbit = "うさぎ"
+        case hedgehog = "ハリネズミ"
+        case zoo = "動物園"
+        case polarBear = "しろくま"
 
-    //segementSlide時の記述
-
-    override var titlesInSwitcher: [String] {
-
-        return["ねこ","いぬ","うさぎ","ハリネズミ","動物園","しろくま"]
     }
-
-    override func segementSlideContentViewController(at index: Int) -> SegementSlideContentScrollViewDelegate? {
-        switch index {
-            case 0:
-                return Page1ViewController()
-            case 1:
-                return Page2ViewController()
-            case 2:
-                return Page3ViewController()
-            case 3:
-                return Page4ViewController()
-            case 4:
-                return Page5ViewController()
-            case 5:
-                return Page6ViewController()
-
-
-        default:
-            return Page1ViewController()
-        }
-    }
-
 }
 

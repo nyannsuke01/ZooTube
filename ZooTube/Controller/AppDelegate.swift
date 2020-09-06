@@ -40,6 +40,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         isFirst = false
         setNotification()
 
+        UITabBarItem.appearance().setTitleTextAttributes([.font: UIFont.systemFont(ofSize: 9, weight: .bold), .foregroundColor: UIColor.init(red: 230/255, green: 50/255, blue: 50/255, alpha: 1)], for: .normal)
+        
 
         return true
     }

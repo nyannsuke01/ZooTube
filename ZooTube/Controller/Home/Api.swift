@@ -1,21 +1,20 @@
-////
-////  API.swift
-////  ZooTube
-////
-////  Created by user on 2020/09/01.
-////  Copyright © 2020 user. All rights reserved.
-////
 //
-//import Foundation
-//import SegementSlide
+//  Api.swift
+//  ZooTube
+//
+//  Created by user on 2020/09/05.
+//  Copyright © 2020 user. All rights reserved.
+//
+//import UIKit
 //import Alamofire
 //import SwiftyJSON
-//import SDWebImage
 //
-//public class API {
+//
+//class Api {
+//
+//    static let shared = API()
 //
 //    var youtubeData = YoutubeData()
-//
 //    var videoIdArray = [String]()
 //    var publishedAtArray = [String]()
 //    var titleArray = [String]()
@@ -23,27 +22,23 @@
 //    var youtubeURLArray = [String]()
 //    var channelTitleArray = [String]()
 //
-//    var tabNo = 0
-//    //仮置き
-//    var serchKeyWord = SearchKeyWord()
-//
-//
+//    let refresh = UIRefreshControl()
 //
 //    //APIクラスはAPIを呼んで結果を返すためだけに使いたい
 //    // SearchKeyWordに入れた配列からPageに応じた用語を取得する
 //    func getData() {
 //        //APIKeyを隠す処理 使用するキー
-//        let apiKey = KeyManager().getValue(key: "apiKey1") as? String
+//        let apiKey = KeyManager().getValue(key: "apiKey2") as? String
 //
 //
 //        //タブから渡される番号で検索するKeyWordを取得する
-//        var searchKeyWord = SearchKeyWord.getKeyword(tabNo: Int)
+//        var searchKeyWord = "ねこ"
 //
-//        var searchApiText = "https://www.googleapis.com/youtube/v3/search?key="+apiKey+"&q="+searchKeyWord+"&part=snippet&maxResults=40&order=date"
+//        var searchApiText = "https://www.googleapis.com/youtube/v3/search?key="+apiKey!+"&q="+searchKeyWord+"&part=snippet&maxResults=40&order=date"
 //
 //        let url = searchApiText.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
 //        //リクエストを送る
-//        Alamofire.request(url!, method: .get, parameters: nil, encoding: JSONEncoding.default).responseJSON { (responce) in
+//        AF.request(url!, method: .get, parameters: nil, encoding: JSONEncoding.default).responseJSON { (responce) in
 //            //JSON解析
 //
 //            //19個値が帰ってくるので、for文で全て配列に入れる
