@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D1530FB4661C039CB39892C /* Pods_ZooTubeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C11CF5A56287A7059A6AD7 /* Pods_ZooTubeTests.framework */; };
-		A02E0CF8FAB350C2C3418684 /* Pods_ZooTube_ZooTubeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF460742A20E9BF15AF3BA86 /* Pods_ZooTube_ZooTubeUITests.framework */; };
-		A21019507413124A7AC2295D /* Pods_ZooTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE5AEDF2853075068C7372E /* Pods_ZooTube.framework */; };
+		05ADB72B1ACAFEBEA3048B97 /* Pods_ZooTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0B6ED638FCE64CE51C23A7 /* Pods_ZooTube.framework */; };
+		32E99405433542CC8DD5AE6E /* Pods_ZooTubeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344D42CF5423EB2713B38BAE /* Pods_ZooTubeTests.framework */; };
+		41F758D0A83A52EE982CBEBC /* Pods_ZooTube_ZooTubeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8FE3C0EA81557BFCBAB2844 /* Pods_ZooTube_ZooTubeUITests.framework */; };
 		CE231A092500B95B003E8E42 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE231A082500B95B003E8E42 /* Photo.swift */; };
 		CE231A0B2500B97D003E8E42 /* PhotoStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE231A0A2500B97D003E8E42 /* PhotoStreamViewController.swift */; };
 		CE231A0D2500B9AC003E8E42 /* AnnotatedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE231A0C2500B9AC003E8E42 /* AnnotatedPhotoCell.swift */; };
@@ -29,7 +29,7 @@
 		CE4E239A24FD0C7300F46D03 /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E239924FD0C7200F46D03 /* KeyManager.swift */; };
 		CE4E239E24FE44F600F46D03 /* ZooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E239D24FE44F600F46D03 /* ZooViewController.swift */; };
 		CE4E23A024FE453E00F46D03 /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E239F24FE453E00F46D03 /* LikeViewController.swift */; };
-		CE4E23A224FE456D00F46D03 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E23A124FE456D00F46D03 /* MyPageViewController.swift */; };
+		CE4E23A224FE456D00F46D03 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E23A124FE456D00F46D03 /* LoginViewController.swift */; };
 		CE4E23A424FF49B600F46D03 /* CommonPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E23A324FF49B600F46D03 /* CommonPageViewController.swift */; };
 		CE7F0DA6241C798E002ED30A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F0DA5241C798E002ED30A /* AppDelegate.swift */; };
 		CE7F0DA8241C798E002ED30A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F0DA7241C798E002ED30A /* SceneDelegate.swift */; };
@@ -42,6 +42,9 @@
 		CE7F0DD6241C8295002ED30A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE7F0DD5241C8295002ED30A /* GoogleService-Info.plist */; };
 		CE8D4CE32504C19E006515D3 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D4CE22504C19E006515D3 /* Video.swift */; };
 		CE8D4CE52504C20C006515D3 /* Chnnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D4CE42504C20C006515D3 /* Chnnel.swift */; };
+		CE8D4CE7250520CE006515D3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D4CE6250520CE006515D3 /* TabBarController.swift */; };
+		CE8D4CEA25052340006515D3 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D4CE925052340006515D3 /* MyPageViewController.swift */; };
+		CE8D4CEC25052A0C006515D3 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D4CEB25052A0C006515D3 /* SettingViewController.swift */; };
 		CEA31A0A241C8DB800367A2C /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA31A09241C8DB800367A2C /* Page1ViewController.swift */; };
 		CEA31A0C241C8F3F00367A2C /* YoutubeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA31A0B241C8F3F00367A2C /* YoutubeData.swift */; };
 /* End PBXBuildFile section */
@@ -64,13 +67,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05C11CF5A56287A7059A6AD7 /* Pods_ZooTubeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZooTubeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		143B292DA204707A22B1283F /* Pods-ZooTube-ZooTubeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTube-ZooTubeUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZooTube-ZooTubeUITests/Pods-ZooTube-ZooTubeUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		28C691FCB1643BBA552B95B9 /* Pods-ZooTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTubeTests.debug.xcconfig"; path = "Target Support Files/Pods-ZooTubeTests/Pods-ZooTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3B7D0A3E7362070B26B25C5F /* Pods-ZooTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTube.debug.xcconfig"; path = "Target Support Files/Pods-ZooTube/Pods-ZooTube.debug.xcconfig"; sourceTree = "<group>"; };
-		6FE5AEDF2853075068C7372E /* Pods_ZooTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZooTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C51DE5D10A888BCC8A91911 /* Pods-ZooTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTube.release.xcconfig"; path = "Target Support Files/Pods-ZooTube/Pods-ZooTube.release.xcconfig"; sourceTree = "<group>"; };
-		95360AE485E629CEFF09C366 /* Pods-ZooTubeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTubeTests.release.xcconfig"; path = "Target Support Files/Pods-ZooTubeTests/Pods-ZooTubeTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FCE9BABC360FD3F34249CCF /* Pods-ZooTube-ZooTubeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTube-ZooTubeUITests.release.xcconfig"; path = "Target Support Files/Pods-ZooTube-ZooTubeUITests/Pods-ZooTube-ZooTubeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		344D42CF5423EB2713B38BAE /* Pods_ZooTubeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZooTubeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0B6ED638FCE64CE51C23A7 /* Pods_ZooTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZooTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43858A6D7A8D24F871E2B3B8 /* Pods-ZooTube-ZooTubeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTube-ZooTubeUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZooTube-ZooTubeUITests/Pods-ZooTube-ZooTubeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DEEAF060779637C0DCD7320 /* Pods-ZooTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTube.debug.xcconfig"; path = "Target Support Files/Pods-ZooTube/Pods-ZooTube.debug.xcconfig"; sourceTree = "<group>"; };
+		74B99A0794386BE5E78D0818 /* Pods-ZooTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTube.release.xcconfig"; path = "Target Support Files/Pods-ZooTube/Pods-ZooTube.release.xcconfig"; sourceTree = "<group>"; };
+		AEF4061C04A1A5D11340216D /* Pods-ZooTubeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTubeTests.release.xcconfig"; path = "Target Support Files/Pods-ZooTubeTests/Pods-ZooTubeTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE231A082500B95B003E8E42 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		CE231A0A2500B97D003E8E42 /* PhotoStreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStreamViewController.swift; sourceTree = "<group>"; };
 		CE231A0C2500B9AC003E8E42 /* AnnotatedPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotatedPhotoCell.swift; sourceTree = "<group>"; };
@@ -90,7 +93,7 @@
 		CE4E239924FD0C7200F46D03 /* KeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
 		CE4E239D24FE44F600F46D03 /* ZooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooViewController.swift; sourceTree = "<group>"; };
 		CE4E239F24FE453E00F46D03 /* LikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
-		CE4E23A124FE456D00F46D03 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		CE4E23A124FE456D00F46D03 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CE4E23A324FF49B600F46D03 /* CommonPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonPageViewController.swift; sourceTree = "<group>"; };
 		CE7F0DA2241C798E002ED30A /* ZooTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7F0DA5241C798E002ED30A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,10 +112,13 @@
 		CE7F0DD5241C8295002ED30A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE8D4CE22504C19E006515D3 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		CE8D4CE42504C20C006515D3 /* Chnnel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chnnel.swift; sourceTree = "<group>"; };
+		CE8D4CE6250520CE006515D3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CE8D4CE925052340006515D3 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		CE8D4CEB25052A0C006515D3 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		CEA31A09241C8DB800367A2C /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
 		CEA31A0B241C8F3F00367A2C /* YoutubeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeData.swift; sourceTree = "<group>"; };
-		EAFD28177B4DC492DC0FA214 /* Pods-ZooTube-ZooTubeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTube-ZooTubeUITests.release.xcconfig"; path = "Target Support Files/Pods-ZooTube-ZooTubeUITests/Pods-ZooTube-ZooTubeUITests.release.xcconfig"; sourceTree = "<group>"; };
-		EF460742A20E9BF15AF3BA86 /* Pods_ZooTube_ZooTubeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZooTube_ZooTubeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FE3C0EA81557BFCBAB2844 /* Pods_ZooTube_ZooTubeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZooTube_ZooTubeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0879EFC9659F9DEC7C578C /* Pods-ZooTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooTubeTests.debug.xcconfig"; path = "Target Support Files/Pods-ZooTubeTests/Pods-ZooTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A21019507413124A7AC2295D /* Pods_ZooTube.framework in Frameworks */,
+				05ADB72B1ACAFEBEA3048B97 /* Pods_ZooTube.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D1530FB4661C039CB39892C /* Pods_ZooTubeTests.framework in Frameworks */,
+				32E99405433542CC8DD5AE6E /* Pods_ZooTubeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,32 +142,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A02E0CF8FAB350C2C3418684 /* Pods_ZooTube_ZooTubeUITests.framework in Frameworks */,
+				41F758D0A83A52EE982CBEBC /* Pods_ZooTube_ZooTubeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		338BBC14B04AB0F723B7485D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6FE5AEDF2853075068C7372E /* Pods_ZooTube.framework */,
-				EF460742A20E9BF15AF3BA86 /* Pods_ZooTube_ZooTubeUITests.framework */,
-				05C11CF5A56287A7059A6AD7 /* Pods_ZooTubeTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		432D7C478B60D6687080E4A1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B7D0A3E7362070B26B25C5F /* Pods-ZooTube.debug.xcconfig */,
-				8C51DE5D10A888BCC8A91911 /* Pods-ZooTube.release.xcconfig */,
-				143B292DA204707A22B1283F /* Pods-ZooTube-ZooTubeUITests.debug.xcconfig */,
-				EAFD28177B4DC492DC0FA214 /* Pods-ZooTube-ZooTubeUITests.release.xcconfig */,
-				28C691FCB1643BBA552B95B9 /* Pods-ZooTubeTests.debug.xcconfig */,
-				95360AE485E629CEFF09C366 /* Pods-ZooTubeTests.release.xcconfig */,
+				5DEEAF060779637C0DCD7320 /* Pods-ZooTube.debug.xcconfig */,
+				74B99A0794386BE5E78D0818 /* Pods-ZooTube.release.xcconfig */,
+				43858A6D7A8D24F871E2B3B8 /* Pods-ZooTube-ZooTubeUITests.debug.xcconfig */,
+				2FCE9BABC360FD3F34249CCF /* Pods-ZooTube-ZooTubeUITests.release.xcconfig */,
+				FA0879EFC9659F9DEC7C578C /* Pods-ZooTubeTests.debug.xcconfig */,
+				AEF4061C04A1A5D11340216D /* Pods-ZooTubeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -218,7 +214,7 @@
 				CE7F0DC6241C7994002ED30A /* ZooTubeUITests */,
 				CE7F0DA3241C798E002ED30A /* Products */,
 				432D7C478B60D6687080E4A1 /* Pods */,
-				338BBC14B04AB0F723B7485D /* Frameworks */,
+				E00922D64DFC1DBF1F2B0F96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -292,10 +288,12 @@
 		CE7F0DD9241C876F002ED30A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CE8D4CE6250520CE006515D3 /* TabBarController.swift */,
 				CE231A162500C441003E8E42 /* Home */,
 				CE231A152500C430003E8E42 /* Zoo */,
 				CE8D4CE02504BFED006515D3 /* Like */,
-				CE8D4CE12504C006006515D3 /* MyPage */,
+				CE8D4CE8250522B4006515D3 /* MyPage */,
+				CE8D4CE12504C006006515D3 /* Login */,
 				CE7F0DA5241C798E002ED30A /* AppDelegate.swift */,
 				CE7F0DA7241C798E002ED30A /* SceneDelegate.swift */,
 			);
@@ -310,12 +308,31 @@
 			path = Like;
 			sourceTree = "<group>";
 		};
-		CE8D4CE12504C006006515D3 /* MyPage */ = {
+		CE8D4CE12504C006006515D3 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				CE4E23A124FE456D00F46D03 /* MyPageViewController.swift */,
+				CE4E23A124FE456D00F46D03 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CE8D4CE8250522B4006515D3 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D4CE925052340006515D3 /* MyPageViewController.swift */,
+				CE8D4CEB25052A0C006515D3 /* SettingViewController.swift */,
 			);
 			path = MyPage;
+			sourceTree = "<group>";
+		};
+		E00922D64DFC1DBF1F2B0F96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D0B6ED638FCE64CE51C23A7 /* Pods_ZooTube.framework */,
+				E8FE3C0EA81557BFCBAB2844 /* Pods_ZooTube_ZooTubeUITests.framework */,
+				344D42CF5423EB2713B38BAE /* Pods_ZooTubeTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,11 +342,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7F0DCC241C7994002ED30A /* Build configuration list for PBXNativeTarget "ZooTube" */;
 			buildPhases = (
-				07F08D07B0877253FEF65338 /* [CP] Check Pods Manifest.lock */,
+				D168267D6A8CCE2804B345B4 /* [CP] Check Pods Manifest.lock */,
 				CE7F0D9E241C798E002ED30A /* Sources */,
 				CE7F0D9F241C798E002ED30A /* Frameworks */,
 				CE7F0DA0241C798E002ED30A /* Resources */,
-				7E7F8876D2D13A8D036FA706 /* [CP] Embed Pods Frameworks */,
+				5238CD3FB2E1222F5E88DBE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -344,7 +361,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7F0DCF241C7994002ED30A /* Build configuration list for PBXNativeTarget "ZooTubeTests" */;
 			buildPhases = (
-				69A3A92840FDC6F8967825E2 /* [CP] Check Pods Manifest.lock */,
+				2216BB96A6DC01C8D0765DFF /* [CP] Check Pods Manifest.lock */,
 				CE7F0DB4241C7994002ED30A /* Sources */,
 				CE7F0DB5241C7994002ED30A /* Frameworks */,
 				CE7F0DB6241C7994002ED30A /* Resources */,
@@ -363,11 +380,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7F0DD2241C7994002ED30A /* Build configuration list for PBXNativeTarget "ZooTubeUITests" */;
 			buildPhases = (
-				2584A2D16A456346A24E9363 /* [CP] Check Pods Manifest.lock */,
+				087ED219EC2F623876B7879F /* [CP] Check Pods Manifest.lock */,
 				CE7F0DBF241C7994002ED30A /* Sources */,
 				CE7F0DC0241C7994002ED30A /* Frameworks */,
 				CE7F0DC1241C7994002ED30A /* Resources */,
-				E6E9AEFB82A429672D1C06EE /* [CP] Embed Pods Frameworks */,
+				B4D851720CA685583793331E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -455,29 +472,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07F08D07B0877253FEF65338 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZooTube-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2584A2D16A456346A24E9363 /* [CP] Check Pods Manifest.lock */ = {
+		087ED219EC2F623876B7879F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -499,7 +494,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		69A3A92840FDC6F8967825E2 /* [CP] Check Pods Manifest.lock */ = {
+		2216BB96A6DC01C8D0765DFF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -521,7 +516,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7E7F8876D2D13A8D036FA706 /* [CP] Embed Pods Frameworks */ = {
+		5238CD3FB2E1222F5E88DBE5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -538,7 +533,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZooTube/Pods-ZooTube-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E6E9AEFB82A429672D1C06EE /* [CP] Embed Pods Frameworks */ = {
+		B4D851720CA685583793331E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -555,6 +550,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZooTube-ZooTubeUITests/Pods-ZooTube-ZooTubeUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D168267D6A8CCE2804B345B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZooTube-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -569,20 +586,23 @@
 				CE46A2A3241CD880009E10EA /* Page4ViewController.swift in Sources */,
 				CE231A102500BAD0003E8E42 /* ZooPictureLayout.swift in Sources */,
 				CEA31A0C241C8F3F00367A2C /* YoutubeData.swift in Sources */,
+				CE8D4CEA25052340006515D3 /* MyPageViewController.swift in Sources */,
 				CE46A2A1241CD873009E10EA /* Page3ViewController.swift in Sources */,
 				CE46A2A5241CD891009E10EA /* Page5ViewController.swift in Sources */,
 				CE425D572503EB58003661C3 /* VideoListCell.swift in Sources */,
 				CE231A0B2500B97D003E8E42 /* PhotoStreamViewController.swift in Sources */,
-				CE4E23A224FE456D00F46D03 /* MyPageViewController.swift in Sources */,
+				CE4E23A224FE456D00F46D03 /* LoginViewController.swift in Sources */,
 				CE8D4CE32504C19E006515D3 /* Video.swift in Sources */,
 				CEA31A0A241C8DB800367A2C /* Page1ViewController.swift in Sources */,
 				CE4E23A424FF49B600F46D03 /* CommonPageViewController.swift in Sources */,
 				CE231A092500B95B003E8E42 /* Photo.swift in Sources */,
 				CE4E239E24FE44F600F46D03 /* ZooViewController.swift in Sources */,
 				CE425D0925034417003661C3 /* Api.swift in Sources */,
+				CE8D4CE7250520CE006515D3 /* TabBarController.swift in Sources */,
 				CE7F0DA6241C798E002ED30A /* AppDelegate.swift in Sources */,
 				CE7F0DA8241C798E002ED30A /* SceneDelegate.swift in Sources */,
 				CE46A29F241CD64E009E10EA /* Page2ViewController.swift in Sources */,
+				CE8D4CEC25052A0C006515D3 /* SettingViewController.swift in Sources */,
 				CE4E239A24FD0C7300F46D03 /* KeyManager.swift in Sources */,
 				CE4E23A024FE453E00F46D03 /* LikeViewController.swift in Sources */,
 				CE8D4CE52504C20C006515D3 /* Chnnel.swift in Sources */,
@@ -756,7 +776,7 @@
 		};
 		CE7F0DCD241C7994002ED30A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B7D0A3E7362070B26B25C5F /* Pods-ZooTube.debug.xcconfig */;
+			baseConfigurationReference = 5DEEAF060779637C0DCD7320 /* Pods-ZooTube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -769,13 +789,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "user-team.ZooTube";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
 			};
 			name = Debug;
 		};
 		CE7F0DCE241C7994002ED30A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C51DE5D10A888BCC8A91911 /* Pods-ZooTube.release.xcconfig */;
+			baseConfigurationReference = 74B99A0794386BE5E78D0818 /* Pods-ZooTube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -788,13 +809,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "user-team.ZooTube";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
 			};
 			name = Release;
 		};
 		CE7F0DD0241C7994002ED30A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28C691FCB1643BBA552B95B9 /* Pods-ZooTubeTests.debug.xcconfig */;
+			baseConfigurationReference = FA0879EFC9659F9DEC7C578C /* Pods-ZooTubeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -817,7 +839,7 @@
 		};
 		CE7F0DD1241C7994002ED30A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95360AE485E629CEFF09C366 /* Pods-ZooTubeTests.release.xcconfig */;
+			baseConfigurationReference = AEF4061C04A1A5D11340216D /* Pods-ZooTubeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -840,7 +862,7 @@
 		};
 		CE7F0DD3241C7994002ED30A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 143B292DA204707A22B1283F /* Pods-ZooTube-ZooTubeUITests.debug.xcconfig */;
+			baseConfigurationReference = 43858A6D7A8D24F871E2B3B8 /* Pods-ZooTube-ZooTubeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -861,7 +883,7 @@
 		};
 		CE7F0DD4241C7994002ED30A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAFD28177B4DC492DC0FA214 /* Pods-ZooTube-ZooTubeUITests.release.xcconfig */;
+			baseConfigurationReference = 2FCE9BABC360FD3F34249CCF /* Pods-ZooTube-ZooTubeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

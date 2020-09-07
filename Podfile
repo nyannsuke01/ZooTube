@@ -11,7 +11,9 @@ target 'ZooTube' do
   pod 'SwiftyJSON'
   pod 'SegementSlide'
   pod 'SDWebImage'
-
+  pod 'XLPagerTabStrip'
+  pod 'DZNEmptyDataSet'
+  pod 'SVProgressHUD','2.2.5'
 
   target 'ZooTubeTests' do
     inherit! :search_paths
@@ -24,14 +26,12 @@ target 'ZooTube' do
 
   # add the Firebase pod for Google Analytics
   pod 'Firebase/Analytics'
-  pod 'Firebase','6.28.1'
+  pod 'Firebase'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
   pod 'FirebaseUI/Storage'
-  pod 'XLPagerTabStrip'
-  pod 'DZNEmptyDataSet'
-  pod 'Nuke'
+
   # add pods for any other desired Firebase products
   # https://firebase.google.com/docs/ios/setup#available-pods
 

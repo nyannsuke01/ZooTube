@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Nuke
+//import Nuke
 
 class VideoListCell: UICollectionViewCell {
     
@@ -15,11 +15,11 @@ class VideoListCell: UICollectionViewCell {
         didSet {
             
             if let url = URL(string: videoItem?.snippet.thumbnails.medium.url ?? "") {
-                Nuke.loadImage(with: url, into: thumbnailImageView)
+//                Nuke.loadImage(with: url, into: thumbnailImageView)
             }
             
             if let channelUrl = URL(string: videoItem?.channel?.items[0].snippet.thumbnails.medium.url ?? "") {
-                Nuke.loadImage(with: channelUrl, into: channelImageView)
+//               Nuke.loadImage(with: channelUrl, into: channelImageView)
             }
             
             titleLabel.text = videoItem?.snippet.title

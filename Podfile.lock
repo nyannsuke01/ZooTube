@@ -342,27 +342,27 @@ PODS:
     - nanopb/encode (= 1.30905.0)
   - nanopb/decode (1.30905.0)
   - nanopb/encode (1.30905.0)
-  - Nuke (9.1.2)
   - PromisesObjC (1.2.10)
   - SDWebImage (5.9.0):
     - SDWebImage/Core (= 5.9.0)
   - SDWebImage/Core (5.9.0)
   - SegementSlide (3.0.0)
+  - SVProgressHUD (2.2.5)
   - SwiftyJSON (5.0.0)
   - XLPagerTabStrip (9.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - DZNEmptyDataSet
-  - Firebase (= 6.28.1)
+  - Firebase
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Firestore
   - Firebase/Storage
   - FirebaseUI/Storage
-  - Nuke
   - SDWebImage
   - SegementSlide
+  - SVProgressHUD (= 2.2.5)
   - SwiftyJSON
   - XLPagerTabStrip
 
@@ -389,10 +389,10 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
-    - Nuke
     - PromisesObjC
     - SDWebImage
     - SegementSlide
+    - SVProgressHUD
     - SwiftyJSON
     - XLPagerTabStrip
 
@@ -418,13 +418,13 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
-  Nuke: dd2e6be6a34c042a7861e190632781d11f253026
   PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
   SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
   SegementSlide: ad0a6de50cbcc071da9ec8b0f403a4e75b20ba9a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
 
-PODFILE CHECKSUM: 55161df2a3d92de788758675154f47a43d43301e
+PODFILE CHECKSUM: 8fbdf2651cc50349eccc3ad1cb315a29097ca967
 
 COCOAPODS: 1.8.4

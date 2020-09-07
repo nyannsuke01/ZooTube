@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SegementSlide
 import XLPagerTabStrip
 
 class HeaderViewController: ButtonBarPagerTabStripViewController {
